@@ -1,27 +1,37 @@
-# Shop4less
+1. Run commands node -v
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+2. Run npm -v 
+ > **Note:**If you dont have these - please **install NODE.js** on your machine .
+3. Install Angular CLI
+`npm i @angular/cli`
 
-## Development server
+4. To create a new application
+` ng new <application_name>`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+5. To run a command 
+`ng serve` **http://localhost:4200**
 
-## Code scaffolding
+## Mock data set up
+> **Note**API được lưu trữ trên đám mây và điểm cuối giả.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Json Server
+    1.1 npm i - save json-server && npm i json-server -g  **can we run offline** 
+    1.2 json-server --watch db.json 
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Add framework css  (Boostrap) version 4
+`npm i bootstrap@4.5.0 @popperjs/core jquery`
+    ```
+            "styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+    ```
+## Creating Features Module
+ `ng generate module <module_name>`
+1. Create module lazy
+  `ng g m module_name --route module_name --module app.module.ts`  
+> **Note:** bạn không cần phải thêm lazy module vào app.modules.ts, nếu không nó sẽ được tải lên ngay từ đầu, mà thay vào đó, bạn có thể tạo một routing module riêng để quản lý các tuyến đường cho lazy module.
