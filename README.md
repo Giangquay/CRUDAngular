@@ -20,7 +20,7 @@
 
 ## Add framework css  (Boostrap) version 4
 `npm i bootstrap@4.5.0 @popperjs/core jquery`
-    ```
+    ```json
             "styles": [
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
