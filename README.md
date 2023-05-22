@@ -20,14 +20,14 @@
 
 ## Add framework css  (Boostrap) version 4
 `npm i bootstrap@4.5.0 @popperjs/core jquery`
-    ```<br/>
-       "styles": [ <br/>
-       "src/styles.css",<br/>
-         "node_modules/bootstrap/dist/css/bootstrap.min.css"<br/>
-      ],<br/>
-       "scripts": [<br/>
-       "node_modules/jquery/dist/jquery.min.js",<br/>
-       "node_modules/bootstrap/dist/js/bootstrap.min.js"<br/>
+    ```<br>
+       "styles": [ <br>
+       "src/styles.css",<br>
+         "node_modules/bootstrap/dist/css/bootstrap.min.css"<br>
+      ],<br>
+       "scripts": [<br>
+       "node_modules/jquery/dist/jquery.min.js",<br>
+       "node_modules/bootstrap/dist/js/bootstrap.min.js"<br>
        ]
     ```
 ## Creating Features Module
