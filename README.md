@@ -14,7 +14,7 @@
 ## Mock data set up
 > **Note**API được lưu trữ trên đám mây và điểm cuối giả.
 
-1. Json Server
+1. [Json Server]
     1.1 npm i - save json-server && npm i json-server -g  **can we run offline** 
     1.2 json-server --watch db.json 
 
@@ -32,6 +32,6 @@
     ```
 ## Creating Features Module
  `ng generate module <module_name>`
-1. Create module lazy
+1. [ Create module lazy ]
   `ng g m module_name --route module_name --module app.module.ts`  
 > **Note:** bạn không cần phải thêm lazy module vào app.modules.ts, nếu không nó sẽ được tải lên ngay từ đầu, mà thay vào đó, bạn có thể tạo một routing module riêng để quản lý các tuyến đường cho lazy module.
