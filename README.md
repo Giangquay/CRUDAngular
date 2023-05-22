@@ -15,19 +15,19 @@
 > **Note**API được lưu trữ trên đám mây và điểm cuối giả.
 
 1. Json Server
-    1.1 npm i - save json-server && npm i json-server -g  **can we run offline** 
-    1.2 json-server --watch db.json 
+    - npm i - save json-server && npm i json-server -g  **can we run offline** 
+    - json-server --watch db.json 
 
 ## Add framework css  (Boostrap) version 4
 `npm i bootstrap@4.5.0 @popperjs/core jquery`
-    ```bash
-       "styles": [ 
-       "src/styles.css",
-         "node_modules/bootstrap/dist/css/bootstrap.min.css"
-      ],
-       "scripts": [
-       "node_modules/jquery/dist/jquery.min.js",
-       "node_modules/bootstrap/dist/js/bootstrap.min.js"
+    ```<br/>
+       "styles": [ <br/>
+       "src/styles.css",<br/>
+         "node_modules/bootstrap/dist/css/bootstrap.min.css"<br/>
+      ],<br/>
+       "scripts": [<br/>
+       "node_modules/jquery/dist/jquery.min.js",<br/>
+       "node_modules/bootstrap/dist/js/bootstrap.min.js"<br/>
        ]
     ```
 ## Creating Features Module
