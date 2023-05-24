@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OrdersModule } from './orders/orders.module';
 import { HomeComponent } from './home/home.component';
+import { SiteFrameworkModule } from './site-framework/site-framework.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,6 +15,7 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule,
     OrdersModule,
+    SiteFrameworkModule
   ],
   providers: [],
   bootstrap: [AppComponent]
