@@ -35,3 +35,14 @@
 1. Create module lazy
   `ng g m module_name --route module_name --module app.module.ts`  
 > **Note:** bạn không cần phải thêm lazy module vào app.modules.ts, nếu không nó sẽ được tải lên ngay từ đầu, mà thay vào đó, bạn có thể tạo một routing module riêng để quản lý các tuyến đường cho lazy module.
+
+
+## create a Service
+
+1. Step 1: Import HttpClientModule into App module.
+  * {HttpClientModule} from '@angular/common/httpclient';
+2. Generate the service
+  * ng generate service
+3. Import HttpClient into service
+4. Inject HttpClient in contructor
+  * contructor(private httpClient:HttpClient)
